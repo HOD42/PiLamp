@@ -1,0 +1,23 @@
+# m h  dom mon dow   command
+#@reboot sudo pkill python;/home/pi/mote-rainbow.py 8 8 8 >/dev/null
+00 18 * * * sudo pkill python;/home/pi/mote-rainbow.py 2 2 2 >/dev/null
+05 18 * * * sudo pkill python;/home/pi/mote-rainbow.py 4 4 4 >/dev/null
+10 18 * * * sudo pkill python;/home/pi/mote-rainbow.py 6 6 6 >/dev/null
+15 18 * * * sudo pkill python;/home/pi/mote-rainbow.py 8 8 8 >/dev/null
+30 18 * * * sudo pkill python;/home/pi/mote-rainbow.py 16 16 16 >/dev/null
+45 18 * * * sudo pkill python;/home/pi/mote-rainbow.py 32 32 32 >/dev/null
+00 19 * * * sudo pkill python;/home/pi/mote-rainbow.py 64 64 64 >/dev/null
+30 19 * * * sudo pkill python;/home/pi/mote-rainbow.py 128 128 128 >/dev/null
+00 20 * * * sudo pkill python;/home/pi/mote-rainbow.py 192 192 192 >/dev/null
+30 20 * * * sudo pkill python;/home/pi/mote-rainbow.py 255 255 255 >/dev/null
+00 21 * * * sudo pkill python;/home/pi/mote-rainbow.py 192 192 192 >/dev/null
+30 21 * * * sudo pkill python;/home/pi/mote-rainbow.py 128 128 128 >/dev/null
+00 22 * * * sudo pkill python;/home/pi/mote-rainbow.py 64 64 64 >/dev/null
+30 22 * * * sudo pkill python;/home/pi/mote-rainbow.py 32 32 32 >/dev/null
+00 23 * * * sudo pkill python;/home/pi/mote-rainbow.py 16 16 16 >/dev/null
+30 23 * * * sudo pkill python;/home/pi/mote-rainbow.py 8 8 8 >/dev/null
+00 00 * * * sudo pkill python;/home/pi/mote-rainbow.py 4 4 4 >/dev/null
+30 00 * * * sudo pkill python;/home/pi/mote-rainbow.py 2 2 2 >/dev/null
+00 01 * * * sudo pkill python;/home/pi/mote-rainbow.py 1 1 1 >/dev/null
+15 01 * * * sudo pkill python;/home/pi/mote-rgb.py 0 0 0 >/dev/null
+
