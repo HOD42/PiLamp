@@ -10,5 +10,7 @@ Pimoroni MOTE sticks in Ikea globe.
 
 # Requirements
 sudo apt install pimoroni
+
 pimoroni-dashboard
+
 (install from "something else" / mote)
